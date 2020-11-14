@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0953532F-B2FE-46FA-B627-5D7C356D592E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wpf", "wpf", "{7816EEC7-AD7C-4292-A36D-AE2BA4AB9859}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfNet48Works", "src\WpfNet48Works\WpfNet48Works.csproj", "{2DDF7605-9FFB-4043-BF8D-7877F8493E60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfNetCoreApp31DoesNotWork", "src\WpfNetCoreApp31DoesNotWork\WpfNetCoreApp31DoesNotWork.csproj", "{B60EBD5F-DFE9-4910-A21C-00AEC9D89DF4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfNet5WindowsDoesNotWork", "src\WpfNet5WindowsDoesNotWork\WpfNet5WindowsDoesNotWork.csproj", "{EDB67076-8B85-4847-B972-D4E221FE1F4C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskDialogApi", "src\TaskDialogApi\TaskDialogApi.csproj", "{6DDBD7B4-A2BD-4C82-B8B7-6817A26165C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{B57E88C8-5BFE-47D7-B31B-A2FEDF523A92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{A7015E4E-3744-4983-AD82-58DCBC861141}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		global.json = global.json
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DDF7605-9FFB-4043-BF8D-7877F8493E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DDF7605-9FFB-4043-BF8D-7877F8493E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DDF7605-9FFB-4043-BF8D-7877F8493E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DDF7605-9FFB-4043-BF8D-7877F8493E60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B60EBD5F-DFE9-4910-A21C-00AEC9D89DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B60EBD5F-DFE9-4910-A21C-00AEC9D89DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B60EBD5F-DFE9-4910-A21C-00AEC9D89DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B60EBD5F-DFE9-4910-A21C-00AEC9D89DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDB67076-8B85-4847-B972-D4E221FE1F4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB67076-8B85-4847-B972-D4E221FE1F4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB67076-8B85-4847-B972-D4E221FE1F4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB67076-8B85-4847-B972-D4E221FE1F4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DDBD7B4-A2BD-4C82-B8B7-6817A26165C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DDBD7B4-A2BD-4C82-B8B7-6817A26165C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DDBD7B4-A2BD-4C82-B8B7-6817A26165C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DDBD7B4-A2BD-4C82-B8B7-6817A26165C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2DDF7605-9FFB-4043-BF8D-7877F8493E60} = {7816EEC7-AD7C-4292-A36D-AE2BA4AB9859}
+		{B60EBD5F-DFE9-4910-A21C-00AEC9D89DF4} = {7816EEC7-AD7C-4292-A36D-AE2BA4AB9859}
+		{EDB67076-8B85-4847-B972-D4E221FE1F4C} = {7816EEC7-AD7C-4292-A36D-AE2BA4AB9859}
+		{6DDBD7B4-A2BD-4C82-B8B7-6817A26165C7} = {B57E88C8-5BFE-47D7-B31B-A2FEDF523A92}
+		{7816EEC7-AD7C-4292-A36D-AE2BA4AB9859} = {0953532F-B2FE-46FA-B627-5D7C356D592E}
+		{B57E88C8-5BFE-47D7-B31B-A2FEDF523A92} = {0953532F-B2FE-46FA-B627-5D7C356D592E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E528C2CC-AE92-4F2E-B2BD-891652D8C4BD}
+	EndGlobalSection
+EndGlobal

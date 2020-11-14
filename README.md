@@ -1,5 +1,7 @@
 ## WPF System.EntryPointNotFoundException: Unable to find an entry point named 'TaskDialogIndirect' in DLL 'comctl32.dll'
 
+> https://github.com/dotnet/wpf/issues/3815
+
 Calls to `comctl32.dll` succeed in .NET Framework 4.8, but fail in .NET 5 and in .NET Core 3.1 with `System.EntryPointNotFoundException`
 
 ```csharp
